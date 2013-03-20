@@ -1,0 +1,275 @@
+body {
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "myriad-pro-n4", "myriad-pro", Verdana, Arial, sans-serif;
+  line-height: 1.4;
+  color: #444;
+  margin: 50px; }
+
+p, ul, ol, blockquote {
+  margin-bottom: 14px; }
+
+ul {
+  list-style-type: disc;
+  margin-left: 18px; }
+
+a {
+  color: #fe9e29;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+h1, h2, h3 {
+  line-height: 1;
+  margin-top: 0;
+  font-weight: 700;
+  font-family: "myriad-pro-n7", "myriad-pro", Verdana, Arial, sans-serif; }
+
+h1, h2 {
+  color: #fe9e29; }
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 14px; }
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 18px;
+  margin-top: 25px; }
+
+h3 {
+  color: #153872;
+  font-size: inherit; }
+
+blockquote {
+  line-height: 1.6;
+  padding: 25px 40px 0 40px; }
+  blockquote .quote-symbol {
+    font-size: 400%;
+    font-family: "Georgia", serif;
+    line-height: 0;
+    position: relative;
+    top: 25px;
+    margin-right: 2px;
+    color: #fe9e29; }
+  blockquote footer {
+    font-size: 10px;
+    font-style: italic;
+    font-family: "myriad-pro-i4", "myriad-pro", Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: #153872; }
+
+.clear {
+  clear: both;
+  overflow: hidden; }
+
+#container, footer {
+  width: 730px;
+  margin: auto; }
+
+#container {
+  border-radius: 12px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#dddddd', Direction=145, Strength=10);
+  border: solid 1px #ddd; }
+
+header #header-image {
+  background: #e0ddd6 url(../images/main-image.jpg) no-repeat;
+  height: 104px;
+  display: block;
+  position: relative; }
+  header #header-image #logo {
+    background: url(../images/main-logo.gif) no-repeat;
+    display: block;
+    text-indent: -9999px;
+    width: 264px;
+    height: 104px;
+    position: absolute;
+    top: 0;
+    right: 0; }
+header #top-bar {
+  height: 20px;
+  padding: 15px; }
+  header #top-bar nav.secondary {
+    float: right; }
+    header #top-bar nav.secondary a {
+      color: #153872;
+      font-size: 12px; }
+      header #top-bar nav.secondary a:hover {
+        opacity: .6; }
+header #nav-bar {
+  background: #fe9e29;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px; }
+  header #nav-bar nav.primary {
+    font-size: 12px; }
+    header #nav-bar nav.primary ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      float: right; }
+      header #nav-bar nav.primary ul li {
+        float: left;
+        border-right: solid 1px rgba(21, 56, 144, 0.4);
+        margin: 10px 0; }
+        header #nav-bar nav.primary ul li:last-child {
+          border-right: none; }
+        header #nav-bar nav.primary ul li a {
+          color: #153872;
+          padding: 0px 8px;
+          display: inline-block; }
+          header #nav-bar nav.primary ul li a:hover {
+            opacity: .5; }
+
+body.home header #nav-bar nav.primary ul li.home a {
+  color: #fff; }
+
+body.about-us header #nav-bar nav.primary ul li.about-us a {
+  color: #fff; }
+
+body.services header #nav-bar nav.primary ul li.services a {
+  color: #fff; }
+
+body.training header #nav-bar nav.primary ul li.training a {
+  color: #fff; }
+
+body.support header #nav-bar nav.primary ul li.support a {
+  color: #fff; }
+
+body.testimonials header #nav-bar nav.primary ul li.testimonials a {
+  color: #fff; }
+
+body.contact-us header #nav-bar nav.primary ul li.contact-us a {
+  color: #fff; }
+
+body.home section.main {
+  overflow: hidden; }
+
+section.main {
+  position: relative;
+  padding: 30px 170px 30px 30px;
+  background: url(../images/bigstar.gif) no-repeat right 30px;
+  min-height: 280px; }
+
+body.home section.main {
+  padding: 30px 249px 30px 30px; }
+
+#site-footer {
+  font-size: 12px;
+  color: #bbb;
+  text-align: center;
+  padding: 22px 0;
+  margin-bottom: 50px; }
+
+.home-intro {
+  font-family: "myriad-pro-n7", "myriad-pro", Verdana, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+  color: #153872; }
+  .home-intro .pride {
+    color: #fe9e29;
+    font-size: 40px;
+    line-height: 0px;
+    position: relative;
+    top: 12px;
+    margin-bottom: 10px; }
+
+.home-acronym-label {
+  color: orange;
+  font-family: "myriad-pro-n7", "myriad-pro", Verdana, Arial, sans-serif;
+  font-weight: 700; }
+
+.marquee {
+  position: absolute;
+  right: -89px;
+  top: 30px;
+  width: 228px;
+  height: 272px;
+  background: url(../images/home_star.gif) no-repeat; }
+  .marquee .marquee-content {
+    line-height: 1.7;
+    padding: 30px; }
+    .marquee .marquee-content a {
+      text-decoration: underline;
+      color: #153872;
+      font-family: "myriad-pro-n7", "myriad-pro", Verdana, Arial, sans-serif;
+      font-weight: 700; }
+  .marquee h3 {
+    line-height: 1.4;
+    margin-bottom: 1em; }
+
+.team, .technology {
+  float: left; }
+
+.team {
+  width: 230px;
+  margin-right: 20px; }
+
+.technology {
+  width: 200px; }
+
+.tabs {
+  float: right;
+  margin-bottom: 20px;
+  margin-top: -40px; }
+  .tabs li {
+    display: inline;
+    float: left;
+    margin-left: 10px; }
+    .tabs li a {
+      display: inline-block;
+      padding: 5px;
+      border: solid 1px #fe9e29;
+      border-radius: 3px; }
+      .tabs li a.selected {
+        background: #fe9e29;
+        color: #fff; }
+
+@media print {
+  .tabs {
+    display: none; }
+
+  .tab {
+    display: block; } }
+@media all and (max-width: 800px) {
+  body {
+    margin: 0; }
+
+  #container, footer {
+    width: 100%; }
+
+  #container {
+    border-radius: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+  #site-footer {
+    border-top: 1px solid #ccc; }
+
+  section.main {
+    padding: 25px 170px 25px 25px; } }
+@media all and (max-width: 480px) {
+  header #top-bar {
+    padding: 8px; }
+  header #nav-bar nav.primary ul li.home {
+    display: none; }
+  header #nav-bar nav.primary ul li a {
+    padding: 0px 6px; }
+  header #header-image {
+    background: #e0ddd6; }
+    header #header-image #logo {
+      position: relative;
+      left: -30px; }
+
+  section.main, body.home section.main {
+    padding: 20px;
+    background: none; }
+
+  .marquee {
+    display: none; } }
